@@ -33,4 +33,5 @@ clean:
 run: $(TARGET)
 	./$(TARGET)
 
+# declares all,test,clean,run as commands not real files.
 .PHONY: all test clean run
